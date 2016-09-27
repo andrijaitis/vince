@@ -1,0 +1,441 @@
+
+<style>
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:120%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	mso-font-kerning:10.0pt;
+	mso-fareast-language:JA;}
+h1
+	{mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	text-align:right;
+	line-height:120%;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:10.5pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#5C2D91;
+	mso-themecolor:accent1;
+	text-transform:uppercase;
+	mso-font-kerning:10.0pt;
+	mso-fareast-language:JA;
+	font-weight:normal;}
+h2
+	{mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	line-height:120%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#404040;
+	mso-themecolor:text1;
+	mso-themetint:191;
+	text-transform:uppercase;
+	mso-font-kerning:10.0pt;
+	mso-ligatures:standardcontextual;
+	mso-fareast-language:JA;}
+p.ResumeText, li.ResumeText, div.ResumeText
+	{mso-style-name:"Resume Text";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:2.0pt;
+	margin-right:1.0in;
+	margin-bottom:2.0pt;
+	margin-left:0in;
+	line-height:120%;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	mso-font-kerning:10.0pt;
+	mso-fareast-language:JA;}
+p.ContactInfo, li.ContactInfo, div.ContactInfo
+	{mso-style-name:"Contact Info";
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	text-align:right;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#595959;
+	mso-themecolor:text1;
+	mso-themetint:166;
+	mso-font-kerning:10.0pt;
+	mso-fareast-language:JA;}
+p.Name, li.Name, div.Name
+	{mso-style-name:Name;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:.1in;
+	margin-bottom:8.0pt;
+	margin-left:.1in;
+	line-height:120%;
+	mso-pagination:widow-orphan;
+	background:#5C2D91;
+	mso-background-themecolor:accent1;
+	border:none;
+	mso-border-alt:solid #5C2D91 .5pt;
+	mso-border-themecolor:accent1;
+	padding:0in;
+	mso-padding-alt:4.0pt 6.0pt 4.0pt 6.0pt;
+	font-size:16.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:white;
+	mso-themecolor:background1;
+	text-transform:uppercase;
+	mso-font-kerning:10.0pt;
+	mso-fareast-language:JA;}
+</style>
+
+<p class=ContactInfo>
+	https://www.hologirl.azurewebsites.net
+</p>
+
+<p class=ContactInfo>
+ 	<a href="">
+ 		eva.pardi@hotmail.com
+ 	</a>
+</p>
+
+<p class=ContactInfo>
+	Dortheavej 17, 2, 10
+
+<p class=ContactInfo>
+	Copenhagen NV, Denmark
+</p>
+
+<div style='mso-element:para-border-div;border:solid #5C2D91 1.0pt;mso-border-themecolor:accent1;mso-border-alt:solid #5C2D91 .5pt;
+ mso-border-themecolor:accent1;padding:4.0pt 6.0pt 4.0pt 6.0pt;background:#5C2D91;mso-background-themecolor:accent1;margin-left:.1in;margin-right:.1in'>
+	<p class=Name>
+		Eva Pardi
+	</p>
+</div>
+
+<table class=ResumeTable border=0 cellspacing=0 cellpadding=0 title="Resume text" summary=Resume width="100%" style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:.1in 0in .1in 0in'>
+ 
+ 
+<tr style='mso-yfti-irow:4'>
+  <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  <h1>
+  	Education
+  </h1>
+  </td>
+  <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  </td>
+  <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'><span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  </span>
+  <h2>
+     	Secondary School, 2005-2009
+     </h2>
+     <p class=MsoNormal>
+     	Bolyai Janos Gimnazium es Kereskedelmi Szakkozepiskola (Ocsa, Hungary)
+     </p>
+     <p class=MsoNormal>
+	English high level graduate, intermediate language exam
+	</p>
+	
+     <p class=MsoNormal>
+     	IT high level graduate
+     </p>
+     <p class=MsoNormal>
+     	Mathematics high level
+     </p>
+     <h2>
+     	University of Debrecen, Hungary, 2009-2015
+     </h2>
+     <p class=MsoNormal>
+     	Faculty of Informatics, System Engineering
+     </p>
+     <p class=MsoNormal>
+	Developing skills: C, C++, Visual Basic, Python, LabView, .NET, PHP, HTML, JAVA
+     </p>
+     <p class=MsoNormal>
+     	Measurement and process management specialization
+	
+     	</p>
+	
+     <h2>
+     	KEA - Copenhagen School of Design and Technology (Denmark)
+     </h2>
+     <p class=MsoNormal>
+     	Computer Science
+     </p>
+     <p class=MsoNormal>
+Developing skills: C#, JAVA, JavaScript, Android Game Development
+     </p>
+     <p class=MsoNormal>
+     	Software Design - project management
+     </p>
+	  
+	  <h2>
+     	KEA - Copenhagen School of Design and Technology (Denmark)
+     </h2>
+     <p class=MsoNormal>
+     	Software Development
+     </p>
+     <p class=MsoNormal>
+Developing skills: C#, JAVA, PHP
+     </p>
+     <p class=MsoNormal>
+     	Software Testing
+     </p>
+    </td>
+	
+ 
+ </tr>
+
+
+<tr style='mso-yfti-irow:3'>
+  <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  	<h1>
+  		Work History
+  	</h1>
+  </td>
+  <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  	<p class=MsoNormal>
+  	</p>
+  </td>
+  <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;
+  mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  	<span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  	</span>
+     <h2>
+     	Webshop Operating Assistant (Budapest, Hungary)
+     </h2>
+    <p class=ResumeText>
+    	01.06.12.-28.02.14.
+    </p>
+    <p class=ResumeText>
+    	Professional experiences: operating webshop, managing productlist
+    </p>
+    <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  	</span>
+     <h2>
+     	Microsoft Student Partner (Budapest, Hungary)
+     </h2>
+    <p class=ResumeText>
+    	06.05.13. - Present
+    </p>
+    <p class=ResumeText>
+    	Windows Insider, Microsoft Azure development, relations with students and instructors, attend to professional events
+    </p>
+ 	<span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  	</span>
+     <h2>
+     	Microsoft Student Partner (Copenhagen, Denmark)
+     </h2>
+    <p class=ResumeText>
+    	01.02.15. - Present
+    </p>
+    <p class=ResumeText>
+    	Microsoft Azure development, BizSpark, Hour of Code, relations with students and instructors, attend to professional events
+    </p>
+<h2>
+     	LicenseWatch A/S
+     </h2>
+    <p class=ResumeText>
+    	01.09.15. - 01.09.16.
+    </p>
+    <p class=ResumeText>
+    	Azure AD, Microsoft server software installation and management
+    </p>
+
+
+<tr style='mso-yfti-irow:1'>
+  <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  	<h1>
+  		Professional Achievements
+  	</h1>
+  </td>
+  <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  </td>
+  <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+	<span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+	</span>
+	<h2>
+		<span style='color:#404040;mso-themecolor:text1;mso-themetint:191'>
+			Microsoft Certified Professional
+		</span>
+	</h2>
+    <p class=ResumeText>
+    	PRO: Designing and Developing Microsoft Azure Applications 
+    </p>
+    <p class=ResumeText>
+    	EXAM ID: 70-583 
+    </p>
+  <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  </span>
+  <h2>
+  	<span class=MsoPlaceholderText>
+  		<span style='color:#404040;mso-themecolor:text1;mso-themetint:191'>
+  			Language Exam
+  		</span>
+  	</span>
+  </h2>
+    <p class=ResumeText>
+    	State Accredited Language Examination - Intermediate (891629/918178)
+    </p>
+      <p class=ResumeText>
+	English
+	</p>
+  <span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  </span>
+  <h2>
+     <span class=MsoPlaceholderText>
+     	<span style='color:#404040;mso-themecolor:text1;mso-themetint:191'>
+     		Driving licence
+     	</span>
+     </span>
+   </h2>
+    <p class=ResumeText>
+    	B
+    </p>
+  </td>
+ </tr>
+
+<tr style='mso-yfti-irow:2'>
+  <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  	<h1>
+  		Skills
+  	</h1>
+  </td>
+  <td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  </td>
+  <td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-top-alt:solid #5C2D91 .5pt;mso-border-top-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;
+  mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  	<span style='font-size:10.0pt;line-height:120%;font-family:"Calibri",sans-serif;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi;mso-font-kerning:10.0pt;mso-ansi-language:EN-US;mso-fareast-language:JA;mso-bidi-language:AR-SA'>
+  	<p class=ResumeText>
+  		Azure Web Development
+  	</p>
+    <p class=ResumeText>
+    	C#
+    </p>
+    <p class=ResumeText>
+    	Java
+    </p>
+    <p class=ResumeText>
+    	HTML and CSS
+    </p>
+    <p class=ResumeText>
+    	Up to date knowledge about most of the Microsoft software
+    </p>
+  </td>
+  
+<tr style='mso-yfti-irow:1'>
+  
+ <td width=119 valign=top style='width:88.9pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+  <h1>
+  	Objective
+  </h1>
+ </td>
+
+<td width=31 valign=top style='width:23.6pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+</td>
+
+<td width=522 valign=top style='width:391.5pt;border:none;border-bottom:solid #5C2D91 1.0pt;mso-border-bottom-themecolor:accent1;mso-border-bottom-alt:solid #5C2D91 .5pt;mso-border-bottom-themecolor:accent1;padding:.1in 0in .1in 0in'>
+	<p class=MsoNormal>
+		I want to be an expert in Microsoft Azure and C#.
+	</p>
+	<p class=MsoNormal>
+		Now I study at KEA, where I mostly learn about JAVA and Networking. During my studies I hold workshops and events for students
+		about Azure, Hour of Code, etc..
+	</p>
+	<p class=MsoNormal>
+	</p>
+</td>
+
+ </tr>
+</table>
+
+</div>
+
+</body>
+
+</html>
